@@ -1,0 +1,56 @@
+{{ define "main" }}
+
+<section id="about-section" class="bg-black 
+  pt4
+  pb6
+  fw2
+  ">
+  <h1 class="f2-ns f4 
+    mb3 lh-solid
+    ml4
+    mb4
+    pb3
+    bb
+    b--light-pink
+    light-pink
+    normal
+    avenir
+  ">
+    Composites Collective
+  </h1>
+  <p class="f1 f-subheadline-m f-headline-l 
+  lh-title
+  pl4
+  pr4 pr5-ns 
+  bodoni
+  fw6
+  ">Operates at the intersection of <span class="light-pink nowrap-ns">design & technology</span>, <span class="light-red nowrap-ns">behavioral sciences</span>, and <span class="light-pink">society</span>.</p>
+</section>
+
+<section class="bg-hot-pink black
+  ph5-ns ph4
+  pt6-ns pt5
+  pb6
+">
+  <h1 class="f1 f-subheadline-m f-headline-l 
+  lh-title lh-solid-ns
+  tracked-tight-m
+  mb4 mb6-ns
+  bodoni">Transforming Organizations</h1>
+  <p class="f3 f2-l
+    measure-narrow lh-copy
+    ml5-m ml6-l
+    avenir
+  ">
+    We employ dynamic systems theories, analyses of social structures, and design to transform companies, non-profits, universities, and societies.</p>
+</section>
+
+<section id="team-section" class="dn">
+  {{ partial "team.html" . }}    
+</section>
+
+<section id="events-section" class="bg-hot-pink white dn">
+  {{ partial "events.html" . }}
+</section>
+
+{{ end }}

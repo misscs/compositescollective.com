@@ -1,0 +1,14 @@
+<ul class="mw9  ph3 ph4-l pv2" >
+  {{ range .Site.Data.Events.Item }}
+    <li class="topic-menu-item flex flex-column">
+      <h2>{{ .Title }}</h2>
+      <h3>{{ .EventTitle }}</h3>
+      <div>
+        {{ .EventLocation }}
+      </div>
+      <div>
+          {{ .EventDate }}
+      </div>
+    </li>
+  {{ end }}
+</ul>

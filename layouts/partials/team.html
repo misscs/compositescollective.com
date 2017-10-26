@@ -1,0 +1,11 @@
+{{ range .Site.Data.Team.Members }}
+<article class="topic-menu-item flex flex-column">
+  <h2>{{ .Name }}</h2>
+  <div>
+    {{ .Bio }}
+  </div>
+  <footer>
+    {{ .Twitter }}
+  </footer>      
+</article>
+{{ end }}

@@ -1,0 +1,24 @@
+body {
+  color: hsla(320, 87%, 44%, 1);
+}
+
+a {
+  text-decoration: none;
+}
+
+ul, 
+ol,
+p,
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+.site-header {
+  background: hsla(320, 87%, 44%, 1);
+}
