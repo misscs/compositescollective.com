@@ -1,22 +1,46 @@
 Item:
   -
-    Photo: icons/icon-average-gauge.svg
+    Title: "Using on/offline participatory methods to creatively re:imagine the future"
+    EventTitle: "Artist Talk: Emergent Digital Practices @DU"
+    EventVenue: Hall Denver University
+    EventLocation: Denver, CO
+    EventDate: 08 August 2017
+  -
+    Title: "Cyber Democracy: Inventing the Future of Local Government"
+    EventTitle: "WeWork Research Team Lunches"
+    EventVenue: WeWork Chelsea
+    EventLocation: New York, NY
+    EventDate: 26 July 2017
+  -
+    Title: "Cyber Democracy: Inventing the NYC"
+    EventTitle: "TicTec@Taipei Unconference"
+    EventVenue: Taipei Conference Center
+    EventLocation: Taiwan
+    EventDate: 20 July 2017
+  -
     Title: "Cyber Democracy: Inventing the Future of Local Government"
     EventTitle: "Reboot: Citizen Engagement"
-    EventLocation: Civic Hall
+    EventVenue: Civic Hall
+    EventLocation: NYC
     EventDate: 08 August 2017
-    Presentation: https://www.preentation.com/download.pdf
   -
-    Photo: icons/icon-average-gauge.svg
     Title: "Cyber Democracy: Inventing the Future of Local Government"
     EventTitle: "BetaNYC Leadership Meeting"
-    EventLocation: Data & Society
+    EventVenue: Data & Society
+    EventLocation: NYC
     EventDate: 26 July 2017
-    Presentation: https://www.preentation.com/download.pdf
   -
-    Photo: icons/icon-average-gauge.svg
     Title: "Cyber Democracy: Inventing the Future of Local Government"
     EventTitle: "Thursday Network's #UnHackTheVote2017"
-    EventLocation: Iron Yard, Washington DC
+    EventVenue: Iron Yard, Washington DC
+    EventLocation: NYC
     EventDate: 20 July 2017
-    Presentation: https://www.preentation.com/download.pdf
+
+  -
+    Title: "Restructuring Organizations"
+    EventTitle: "Eyeo"
+    EventVenue: Walker Art Center
+    EventLocation: Minneapolis, MN
+    EventDate: 26 July 2017
+    Video: https://www.preentation.com/download.pdf
+
