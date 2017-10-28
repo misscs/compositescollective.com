@@ -98,3 +98,10 @@ img {
     background-color: white;    
   }
 }
+
+
+.event-icon {
+  height: 16px;
+  width: 16px;
+  display: inline-block;
+}
