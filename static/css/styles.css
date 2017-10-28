@@ -22,3 +22,35 @@ h6 {
 .site-header {
   background: hsla(320, 87%, 44%, 1);
 }
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+@media screen and (min-width: 60em) {
+  .team-section {
+    background-color: white;    
+  }
+}
+
+
+.team-photo {
+  overflow: hidden;
+}
+
+@media screen and (min-width: 60em) {
+  .team-member-dn .team-photo {
+    order: 2;
+    margin-top: -100px;
+  }
+  
+  .team-member-cs .team-photo img {
+    margin-left: -30px;
+  }
+  
+  .team-closer {
+    margin-top: -40px;
+  }
+}

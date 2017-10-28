@@ -1,5 +1,5 @@
-{{ define "main" }}
 
+{{ define "main" }}
 <section id="about-section" class="bg-black 
   pt4
   pb6
@@ -45,8 +45,107 @@
     We employ dynamic systems theories, analyses of social structures, and design to transform companies, non-profits, universities, and societies.</p>
 </section>
 
-<section id="team-section" class="dn">
-  {{ partial "team.html" . }}    
+<section id="team-section" class="team-section bg-light-pink">
+  <header class="bg-light-pink
+    ph4 ph5-l
+    pt5 pt6-l
+    pb4 pb5-m
+  ">
+    <h1 class="f2 f1-m f-subheadline-l
+    tracked-tight-m
+    w-80-l
+    lh-title lh-solid-ns
+    mb6-l
+    avenir">People connected by imagination & experimentation</h1>
+  </header>
+
+  <article class="team-member team-member-dn
+  flex-ns
+  mh2 mh0-ns
+  ">
+    {{ with .Site.Data.Team.Darshana }}
+      <div class="team-photo
+        w-50-ns
+        aspect-ratio-m aspect-ratio--6x4-m
+        mr6-l">
+        <img src="{{ .Photo }}">
+      </div>
+      <div class="flex-column 
+        w-70-ns
+        pv4
+        ph3
+        bg-white
+      ">
+          <h2 class="
+          mt2-ns
+          mb2 mb4-l
+          ph5-l
+          f3 f2-m f1-l
+        ">{{ .Name }}</h2>
+        <div class="
+          f4-ns
+          measure
+          lh-copy
+          avenir
+    
+          pl6-l
+        ">
+          {{ .Bio }}
+        </div> 
+      </div>  
+    {{ end }}
+  </article>
+
+  <article class="team-member team-member-cs
+  flex-ns
+  mh2 mh0-ns
+  mt6-l
+  ">
+    {{ with .Site.Data.Team.CS }}
+      <div class="team-photo
+      aspect-ratio-m aspect-ratio--6x4-m 
+      w-50-ns">
+      <img src="{{ .Photo }}">
+    </div>
+    <div class="flex-column bg-white
+    pv4
+    ph3 ph0-l
+    w-50-ns 
+    ml4-l">
+        <h2 class="
+        mb3 mb4-l
+        f3 f2-m f1-l
+        tracked-tight-ns
+      ">{{ .Name }}</h2>
+      <div class="
+        ml5-l
+        pr5-l
+        measure
+        f5 f4-ns
+        lh-copy
+        avenir
+      ">
+        {{ .Bio }}
+      </div> 
+    </div>
+    {{ end }}
+  </article>
+
+  <div class="team-closer
+    bg-light-pink
+    ph5-ns ph4
+    pt4 pt0-m pt6-l 
+    pb5
+    overflow-auto-l
+  ">
+    <p class="f2 f-subheadline-ns
+    fr-l
+    fw7
+    measure-narrow lh-tight
+    w-70
+    avenir">to build models for near and far futures.</p>
+  </div>
+
 </section>
 
 <section id="events-section" class="bg-hot-pink white dn">
