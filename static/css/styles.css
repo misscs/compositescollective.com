@@ -29,28 +29,35 @@ img {
 }
 
 
-@media screen and (min-width: 60em) {
-  .team-section {
-    background-color: white;    
-  }
-}
+/* Team Section */
 
+.team-member-dn {
+  max-width: 96em;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .team-photo {
   overflow: hidden;
 }
 
+/*  On large screen sizes, we move to asymmetrial layout */
 @media screen and (min-width: 60em) {
   .team-member-dn .team-photo {
-    order: 2;
     margin-top: -100px;
   }
-  
+
+  .team-member-cs .team-photo {
+    z-index: 5;
+    height: auto;
+    margin-bottom: -80px;
+  }
+
   .team-member-cs .team-photo img {
     margin-left: -30px;
   }
-  
-  .team-closer {
-    margin-top: -40px;
+
+  .team-section {
+    background-color: white;    
   }
 }
