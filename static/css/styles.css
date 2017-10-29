@@ -2,8 +2,22 @@ body {
   color: hsla(320, 87%, 44%, 1);
 }
 
+
 a {
   text-decoration: none;
+  color: #ff725c;
+}
+
+a:hover {
+  background: black;
+}
+
+.link-light {
+  color: #fff;
+}
+
+.link-light:hover {
+  background: black;
 }
 
 ul, 
@@ -39,6 +53,15 @@ img {
 
 .team-photo {
   overflow: hidden;
+}
+
+.team-meta .link {
+  fill: #ff725c;
+}
+
+.team-meta .link:hover {
+  background: none;
+  fill: #111111;
 }
 
 /*  On large screen sizes, we move to asymmetrial layout */
