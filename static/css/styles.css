@@ -2,8 +2,22 @@ body {
   color: hsla(320, 87%, 44%, 1);
 }
 
+
 a {
   text-decoration: none;
+  color: #ff725c;
+}
+
+a:hover {
+  background: black;
+}
+
+.link-light {
+  color: #fff;
+}
+
+.link-light:hover {
+  background: black;
 }
 
 ul, 
@@ -21,4 +35,66 @@ h6 {
 
 .site-header {
   background: hsla(320, 87%, 44%, 1);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+.break-end {
+  display: block;
+  text-align: right
+}
+
+/* text transforms (tt) */
+
+
+/* About Section */
+.about-headline {
+  max-width: 6.1em;
+}
+
+
+/* Team Section */
+
+.team-member-dn {
+  max-width: 96em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.team-photo {
+  overflow: hidden;
+}
+
+.team-meta .link {
+  fill: #ff725c;
+}
+
+.team-meta .link:hover {
+  background: none;
+  fill: #111111;
+}
+
+/*  On large screen sizes, we move to asymmetrial layout */
+@media screen and (min-width: 60em) {
+  .team-member-dn .team-photo {
+    margin-top: -100px;
+  }
+
+  .team-member-cs .team-photo {
+    z-index: 5;
+    height: auto;
+    margin-bottom: -80px;
+  }
+
+  .team-member-cs .team-photo img {
+    margin-left: -30px;
+  }
+
+  .team-section {
+    background-color: white;    
+  }
 }

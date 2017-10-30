@@ -1,13 +1,14 @@
-{{ define "main" }}
 
-<section id="about-section" class="bg-black 
-  pt4
+{{ define "main" }}
+<header id="intro-section" class="bg-near-black 
+  pt4 pt5-l
   pb6
+  pl5-l
   fw2
   ">
   <h1 class="f2-ns f4 
     mb3 lh-solid
-    ml4
+    ml3 ml5-m
     mb4
     pb3
     bb
@@ -20,23 +21,25 @@
   </h1>
   <p class="f1 f-subheadline-m f-headline-l 
   lh-title
-  pl4
+  pl3 pl5-m
   pr4 pr5-ns 
   bodoni
   fw6
-  ">Operates at the intersection of <span class="light-pink nowrap-ns">design & technology</span>, <span class="light-red nowrap-ns">behavioral sciences</span>, and <span class="light-pink">society</span>.</p>
-</section>
+  ">Operates at the intersection of <span class="light-pink nowrap-ns">design & tech<span class="dn-m">nology</span></span>, <span class="light-red nowrap-ns">behavioral sciences</span>, and <span class="light-pink">society</span>.</p>
 
-<section class="bg-hot-pink black
-  ph5-ns ph4
-  pt6-ns pt5
-  pb6
+</header>
+
+<section id="what-section" class="bg-hot-pink near-black
+  ph3 ph5-ns
+  pt5 pt6-l
+  pb5 pb6-l
 ">
-  <h1 class="f1 f-subheadline-m f-headline-l 
+  <h1 class="about-headline
+  f1 f-subheadline-m f-headline-l 
   lh-title lh-solid-ns
   tracked-tight-m
   mb4 mb6-ns
-  bodoni">Transforming Organizations</h1>
+  bodoni"><span class="lh-solid w-100-ns">Trans<span class="db tr di-ns tl-ns">forming</span></span> Organizations</h1>
   <p class="f3 f2-l
     measure-narrow lh-copy
     ml5-m ml6-l
@@ -45,8 +48,114 @@
     We employ dynamic systems theories, analyses of social structures, and design to transform companies, non-profits, universities, and societies.</p>
 </section>
 
-<section id="team-section" class="dn">
-  {{ partial "team.html" . }}    
+<section id="team-section" class="team-section bg-light-pink
+  flex flex-column
+  pb5 pb0-l
+">
+  <header class="bg-light-pink
+    order-0
+    ph3 ph5-ns
+    pt5 pt6-l
+    pb3 pb5-l
+  ">
+    <h1 class="f2 f1-m f-subheadline-l
+    tracked-tight-m
+    w-80-l
+    lh-title lh-solid-l
+    mb6-l
+    avenir">People connected by imagination & experimentation</h1>
+  </header>
+
+  <article class="team-member team-member-dn
+  order-2
+  flex-l
+  ">
+    {{ with .Site.Data.Team.Darshana }}
+      <div class="team-photo
+        w-40-l
+        order-2-ns
+        aspect-ratio aspect-ratio--8x5 aspect-ratio--16x9-m
+        mr6-l">
+        <img src="{{ .Photo }}">
+      </div>
+      <div class="flex-column bg-white
+        pv4
+        ph3 ph5-l
+      ">
+          <h2 class="
+          mt2-ns
+          mb2 mb4-l
+          f3 f2-m f1-l
+        ">{{ .Name }}</h2>
+        <div class="
+          f4-m f3-l
+          measure measure-wide-m
+          lh-copy
+          avenir
+        ">
+          <p>{{ .Bio }}</p>
+        </div> 
+        {{ partial "team-social.html" . }}          
+      </div>  
+    {{ end }}
+  </article>
+
+  <article class="team-member team-member-cs
+  order-3
+  flex-l
+  ">
+    {{ with .Site.Data.Team.CS }}
+      <div class="team-photo
+        self-end-l
+        aspect-ratio aspect-ratio--8x5
+        pb0-l
+        w-50-l
+      ">
+      <img src="{{ .Photo }}">
+    </div>
+    <div class="flex-column bg-white
+    self-start-l
+    pv4
+    pt0-l
+    ph3 ph5-m ph0-l
+    w-50-l
+    ml4-l">
+        <h2 class="
+        mb3 mb4-l
+        f3 f2-m f1-l
+      ">{{ .Name }}</h2>
+      <div class="
+        pr5-l
+        measure measure-wide-m
+        f5 f4-m f3-l
+        lh-copy
+        avenir
+      ">
+        <p>{{ .Bio }}</p>      
+      </div> 
+      {{ partial "team-social.html" . }}
+    </div>
+    {{ end }}
+  </article>
+
+  <div class="team-closer
+    order-1 order-4-l
+    bg-light-pink
+    ph3 ph5-ns
+    pt6-l 
+    pb5
+    overflow-auto-l
+  ">
+    <p class="f2 f1-m f-subheadline-l
+    fr-l
+    fw7
+    measure-narrow
+    tracked-tight-m
+    w-100 w-50-l
+    pl3
+    avenir">to build models for near and <span class="nowrap wrap-ns">far futures</span>.</p>
+  </div>
+
 </section>
 
 <section id="events-section" class="bg-hot-pink white dn">
