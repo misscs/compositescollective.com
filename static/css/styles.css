@@ -108,3 +108,28 @@ img {
   width: 16px;
   display: inline-block;
 }
+
+/* 
+  * Project Section 
+  * 
+  * This section code only works for one project. 
+  *
+*/
+
+.project-content {
+  margin-top: -96px;
+}
+
+.project-photo {
+  margin-left: auto;
+}
+
+/* 
+  * On large screen the supplementary project contents 
+  * sits to the left of the main photo and description 
+  */
+  @media screen and (min-width: 60em) {
+  .project-aside {
+    margin-right: auto;
+  }
+}
