@@ -43,6 +43,20 @@ img {
 }
 
 
+.break-end {
+  display: block;
+  text-align: right
+}
+
+/* text transforms (tt) */
+
+
+/* About Section */
+.about-headline {
+  max-width: 6.1em;
+}
+
+
 /* Team Section */
 
 .team-member-dn {

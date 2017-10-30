@@ -1,13 +1,14 @@
 
 {{ define "main" }}
-<section id="about-section" class="bg-near-black 
-  pt4
+<header id="intro-section" class="bg-near-black 
+  pt4 pt5-l
   pb6
+  pl5-l
   fw2
   ">
   <h1 class="f2-ns f4 
     mb3 lh-solid
-    ml4
+    ml3 ml5-m
     mb4
     pb3
     bb
@@ -20,23 +21,25 @@
   </h1>
   <p class="f1 f-subheadline-m f-headline-l 
   lh-title
-  pl4
+  pl3 pl5-m
   pr4 pr5-ns 
   bodoni
   fw6
-  ">Operates at the intersection of <span class="light-pink nowrap-ns">design & technology</span>, <span class="light-red nowrap-ns">behavioral sciences</span>, and <span class="light-pink">society</span>.</p>
-</section>
+  ">Operates at the intersection of <span class="light-pink nowrap-ns">design & tech<span class="dn-m">nology</span></span>, <span class="light-red nowrap-ns">behavioral sciences</span>, and <span class="light-pink">society</span>.</p>
 
-<section class="bg-hot-pink near-black
-  ph5-ns ph4
-  pt6-ns pt5
-  pb6
+</header>
+
+<section id="what-section" class="bg-hot-pink near-black
+  ph3 ph5-ns
+  pt5 pt6-l
+  pb5 pb6-l
 ">
-  <h1 class="f1 f-subheadline-m f-headline-l 
+  <h1 class="about-headline
+  f1 f-subheadline-m f-headline-l 
   lh-title lh-solid-ns
   tracked-tight-m
   mb4 mb6-ns
-  bodoni">Transforming Organizations</h1>
+  bodoni"><span class="lh-solid w-100-ns">Trans<span class="db tr di-ns tl-ns">forming</span></span> Organizations</h1>
   <p class="f3 f2-l
     measure-narrow lh-copy
     ml5-m ml6-l
@@ -77,20 +80,18 @@
       </div>
       <div class="flex-column bg-white
         pv4
-        ph3 ph5-m
+        ph3 ph5-l
       ">
           <h2 class="
           mt2-ns
           mb2 mb4-l
-          ph5-l
           f3 f2-m f1-l
         ">{{ .Name }}</h2>
         <div class="
-          f4-ns
+          f4-m f3-l
           measure measure-wide-m
           lh-copy
           avenir
-          pl6-l
         ">
           <p>{{ .Bio }}</p>
         </div> 
@@ -124,10 +125,9 @@
         f3 f2-m f1-l
       ">{{ .Name }}</h2>
       <div class="
-        ml5-l
         pr5-l
         measure measure-wide-m
-        f5 f4-ns
+        f5 f4-m f3-l
         lh-copy
         avenir
       ">
@@ -151,7 +151,8 @@
     fw7
     measure-narrow
     tracked-tight-m
-    w-100
+    w-100 w-50-l
+    pl3
     avenir">to build models for near and <span class="nowrap wrap-ns">far futures</span>.</p>
   </div>
 
