@@ -1,0 +1,131 @@
+<section id="project-section" class="pt3 pt6-l">
+  <article class="relative pb5">
+
+    <header class="
+      avenir
+      pl3 pl4-l 
+      pt4 
+      z-999 relative">
+        <h1 class="f-subheadline f-headline-l 
+        tracked-tight 
+        lh-solid
+        hot-pink
+        ">
+        Talk to NYC Pilot</h1>
+    </header>
+    
+    <div class="project-content 
+      flex 
+      flex-column
+      flex-row-l
+      w-100 
+      justify-end
+      ">
+      {{ with .Site.Data.Projects.Talkto }}
+      <div class="
+        w-60-l
+        order-2-l
+        ">
+        
+        <figure class="
+          aspect-ratio aspect-ratio--8x5 aspect-ratio--16x9-l 
+          ml0 
+          overflow-hidden">
+          <img class="tr" src="{{ .MainPhoto }}">
+        </figure>
+
+        <div class="ph3 ph0-l">
+            <p class="mt5
+            f3 f2-l
+            lh-title
+            measure-narrow
+          ">We are working to bring deliberative democracy models to inform city decision making and to connect organizations and districts around NYC’s housing crisis to solve it in a more effective way.</p>
+        
+          <h3 class="
+            f4 f3-ns
+            mt4
+            mb3
+          ">Summer 2017 Pilot</h3>
+          <p class="
+            lh-copy 
+            measure 
+            f5 f4-ns 
+            avenir">
+            We conducted a pilot program to test out pol.is software and to study local citizens and their interaction with candidates. We conducted interviews, attended debates, collaborated with local organizations to map the current process to our viables systems to find areas. to work on.
+          </p>
+        
+          <h3 class="
+          f3
+          mt5
+          mb3
+          ">Results & Next Stages</h3>
+          <p class="lh-copy measure f4 avenir">
+            We are currently working on a community run platform to serve as a people's repository and watchdog oversight over districs. We plan on launching our pilot year program in Community Board 3, District 1 , and District 2.</p>
+  
+        </div>
+      </div>
+    
+
+
+      <aside class="
+        flex flex-column
+        project-aside
+        self-start
+        w-30-l 
+        ph3 ph5-l 
+        mt4 mt6-l
+      ">
+
+        <blockquote class="
+          ma0 
+          mt1
+          mb5-l 
+          f3 f2-l">
+            <p class="i">
+              How can we use deliberative democracy models to inform city decision making?
+            </p>
+        </blockquote>
+
+
+        <section class="flex flex-column 
+          f4
+          lh-copy
+          mt5 
+          mb3
+          avenir
+          order-4
+          ">
+            <a href="">Twitter @TalktoNYC</a>
+            <a href="">Insta @TalktoNYC</a>
+            <a href="">Youtube @TalktoNYC</a>
+            <a href="">talkto.nyc</a>
+        </section>
+
+        <figure class="
+        order-3
+        ml0 
+        overflow-hidden
+        mt5
+        mb4">
+        <img class="tr" src="{{ .SecondaryPhoto }}">
+      </figure>
+
+      <figure class="
+      order-5
+      ma0
+      mt6-l
+      ml5
+      overflow-hidden
+      self-end
+      bg-pink
+      w-100
+      ">
+      <img class="tr" src="{{ .TertiaryPhoto }}">
+    </figure>
+      {{ end }}
+      
+      </aside>
+    
+    </div>  
+  </article>
+</section>
