@@ -1,0 +1,22 @@
+<dl class="
+  pv3 pv5-l 
+  ph4
+  pl5-m pl6-l
+  flex flex-column 
+  ml4-l
+  w-100 w-70-l
+  ">
+  <dt class="
+    f3 f2-m f1-l
+    lh-solid bb">Talks</dt>
+  {{ range .Site.Data.Events.Talks }}
+    {{ partial "event-list.html" . }}
+  {{ end }}
+
+  <dt class="f3 f2-m f1-l 
+    mt4 bb">Collaborations</dt>
+  {{ range .Site.Data.Events.Collabs }}
+    {{ partial "event-list.html" . }}
+  {{ end }}
+
+</dl>

@@ -1,56 +1,46 @@
-<ul class="pl5-m pl6-l pv5 
-  flex flex-column 
-  ml4-l
-  w-70-l
-
+<article>
+  <h3 class="
+    f5 f4-l
+    fw4 
+    mb2 mb3-m hot-pink 
+    lh-title-m lh-solid
+  " >{{ .EventTitle }}</h3>
+  
+  <h2 class="light-pink
+  f5 f4-ns
+  fw4
+  mb3 mb4-m
+  tracked
+  lh-title
+  mb1
+  ">{{ .Title }}</h2>   
+  
+  <div class="flex flex-column flex-row-ns mt1 mb2 
+  f6 f5-ns
+  pink
   ">
-  {{ range .Site.Data.Events.Item }}
-    <li class="topic-menu-item 
-      flex flex-column
-      mb3 mb4-ns
-      pa4
-      avenir
-      pr6
-    ">
-      <h3 class="f5 f4-m fw4 mb2 mb3-m hot-pink lh-solid" >{{ .EventTitle }}</h3>
-      <h2 class="light-pink
-        f5 f4-ns
-        fw4
-        mb3 mb4-m
-        tracked
-        lh-title
-        mb1
-      ">{{ .Title }}</h2>
-      
-      
-      <div class="flex flex-column flex-row-ns mt1 mb2 
-        f6 f5-ns
-        pink
-        ">
-
-        <div class="flex 
-          mb2 mbo-ns 
-          mr4 
-          ttu lh-solid
-          ">
-          <span class="event-icon mr2 mr3-ns ">
-            {{ partial "icons/icon-calendar.html" . }}
-          </span>
-
-          <span>{{ .EventDate }}</span>
-        </div>
-
-        <div class="flex ttu">
-          <span class="event-icon mr2 mr1-ns">
-            {{ partial "icons/icon-location.html" . }}
-          </span>
-          <span>
-              {{ .EventVenue }}
-              {{ .EventLocation }}    
-          </span>
-        </div>
-
-      </div>
-    </li>
-  {{ end }}
-</ul>
+  
+    <div class="flex 
+      mb2 mbo-ns 
+      mr4 
+      ttu lh-solid
+      ">
+      <span class="event-icon mr2 mr3-ns ">
+        {{ partial "icons/icon-calendar.html" . }}
+      </span>
+  
+      <span>{{ .EventDate }}</span>
+    </div>
+  
+    <div class="flex ttu">
+      <span class="event-icon mr2 mr1-ns">
+        {{ partial "icons/icon-location.html" . }}
+      </span>
+      <span>
+          {{ .EventVenue }}
+          {{ .EventLocation }}    
+      </span>
+    </div>
+  
+  </div>
+</article>
