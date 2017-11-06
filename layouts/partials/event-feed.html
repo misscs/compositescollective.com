@@ -8,13 +8,14 @@
   ">
   <dt class="
     f3 f2-m f1-l
-    lh-solid bb">Talks</dt>
+    mb3
+    lh-solid bb avenir light-pink">Talks</dt>
   {{ range .Site.Data.Events.Talks }}
     {{ partial "event-list.html" . }}
   {{ end }}
 
-  <dt class="f3 f2-m f1-l 
-    mt4 bb">Collaborations</dt>
+  <dt class="f3 f2-m f1-l mb3
+    mt4 bb avenir light-pink">Collaborations</dt>
   {{ range .Site.Data.Events.Collabs }}
     {{ partial "event-list.html" . }}
   {{ end }}
