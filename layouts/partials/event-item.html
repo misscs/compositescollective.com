@@ -1,0 +1,48 @@
+<article class="bodoni mb3 mb2-m">
+  <h3 class="
+    f5
+    fw4 
+    mb2 pink
+    lh-title
+    avenir
+  " >{{ .EventTitle }}</h3>
+  
+  <h2 class="white-90
+  f5 f4-ns
+  fw4
+  mb3
+  tracked
+  lh-title
+  mb1
+  ">{{ .Title }}</h2>   
+  
+  <div class="flex flex-column flex-row-ns mt1 mb2 
+  f6
+  white-80
+  avenir
+  ">
+  
+    <div class="flex 
+      mb2 mbo-ns 
+      mr4 
+      ttu lh-solid
+      ">
+      <span class="event-icon mr2 mr3-ns ">
+        {{ partial "icons/icon-calendar.html" . }}
+      </span>
+  
+      <span>{{ .EventDate }}</span>
+    </div>
+  
+    <div class="flex ttu">
+      <span class="event-icon mr2 mr1-ns">
+        {{ partial "icons/icon-location.html" . }}
+      </span>
+      <span>
+          {{ .EventVenue }}
+          {{ .EventLocation }}    
+      </span>
+    </div>
+  
+  </div>
+</article>

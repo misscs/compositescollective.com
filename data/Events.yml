@@ -1,22 +1,61 @@
-Item:
+Collabs:
   -
-    Photo: icons/icon-average-gauge.svg
+    Title: "Process for People’s Roadmap listening session - BKLYN Edition"
+    EventTitle: "BetaNYC facilitaiton co-hosted by Composites Collective"
+    EventVenue: Hosted by Carto
+    EventLocation: Brooklyn, NY
+    EventDate: 19 October 2017
+  -
+    Title: "NYC District 1 Candidate Forum"
+    EventTitle: "Hosted by the Coalition to Protect Chinatown and the Lower East Side"
+    EventVenue: Design High School
+    EventLocation: NYC
+    EventDate: 25 September 2017
+
+
+Talks:
+  -
+    Title: "Creatively Re:imagining our Futures using On/ffline Models and Tools"
+    EventTitle: "Artist Talk: Emergent Digital Practices @ Denver University"
+    EventVenue: Shwayder Art Building
+    EventLocation: Denver, CO
+    EventDate: 12 October 2017
+  -
+    Title: "Deliberative Democracy to Re:imageine NYC Housing"
+    EventTitle: "WeWork Research"
+    EventVenue: WeWork Chelsea
+    EventLocation: NYC
+    EventDate: 29 September 2018
+  -
+    Title: "Re-Inventing the Future of NYC Local Government"
+    EventTitle: "TicTec@Taipei Unconference"
+    EventVenue: Taipei Conference Center
+    EventLocation: Taiwan
+    EventDate: 12 September 2017
+  -
     Title: "Cyber Democracy: Inventing the Future of Local Government"
     EventTitle: "Reboot: Citizen Engagement"
-    EventLocation: Civic Hall
-    EventDate: 08 August 2017
-    Presentation: https://www.preentation.com/download.pdf
+    EventVenue: Civic Hall
+    EventLocation: NYC
+    EventDate: 9 August 2017
   -
-    Photo: icons/icon-average-gauge.svg
     Title: "Cyber Democracy: Inventing the Future of Local Government"
     EventTitle: "BetaNYC Leadership Meeting"
-    EventLocation: Data & Society
+    EventVenue: Data & Society
+    EventLocation: NYC
     EventDate: 26 July 2017
-    Presentation: https://www.preentation.com/download.pdf
   -
-    Photo: icons/icon-average-gauge.svg
     Title: "Cyber Democracy: Inventing the Future of Local Government"
     EventTitle: "Thursday Network's #UnHackTheVote2017"
-    EventLocation: Iron Yard, Washington DC
+    EventVenue: Iron Yard, Washington DC
+    EventLocation: NYC
     EventDate: 20 July 2017
-    Presentation: https://www.preentation.com/download.pdf
+
+  -
+    Title: "Restructuring Organizations"
+    EventTitle: "Eyeo"
+    EventVenue: Walker Art Center
+    EventLocation: Minneapolis, MN
+    EventDate: 26 June 2017
+    Video: https://www.preentation.com/download.pdf
+

@@ -1,0 +1,8 @@
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+  xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" version="1.1" x="0px" y="0px" viewBox="0 0 100 125">
+  <g transform="translate(0,-952.36218)">
+    <path style="color:#ffffff; enable-background:accumulate;" d="m 50,963.36216 c -14.3594,0 -26,12.0883 -26,27 0,5.3743 1.5247,11.38554 4.125,15.59384 L 50,1041.3622 71.875,1005.956 C 74.474,1001.7467 76,995.73646 76,990.36216 c 0,-14.9117 -11.6406,-27 -26,-27 z m 0,14 c 6.6274,0 12,5.3726 12,12 0,6.6273 -5.3726,12.00004 -12,12.00004 -6.6274,0 -12,-5.37274 -12,-12.00004 0,-6.6274 5.3726,-12 12,-12 z"
+      fill="#000000" stroke="none" marker="none" visibility="visible" display="inline" overflow="visible" />
+  </g>
+</svg>
