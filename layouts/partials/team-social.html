@@ -2,12 +2,12 @@
 <footer class="team-meta mt3">
   {{ $icon_size := "24px" }}
   {{ with .Linkedin }}
-    <a href="{{ . }}" class="link-transition link dib z-999 pt2 mr3" title="Linkedin link" target="_blank">
+    <a href="{{ . }}" class="link-transition link-icon dib z-999 pt2 mr3" title="Linkedin link" target="_blank">
       {{ partial "icons/icon-linkedin.svg" (dict "size" $icon_size) }}
     </a>
   {{ end }}
   {{ with .Twitter }}
-    <a href="{{ . }}" class="link-transition link dib z-999 t0-l mr2" title="Twitter link" target="_blank">
+    <a href="{{ . }}" class="link-transition link-icon dib z-999 t0-l mr2" title="Twitter link" target="_blank">
       {{ partial "svg/twitter.svg" (dict "size" $icon_size) }}
     </a>
   {{ end }}

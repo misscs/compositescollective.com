@@ -20,6 +20,17 @@ a:hover {
   background: black;
 }
 
+.link-icon {
+  fill: #ff725c;
+}
+
+.link-icon:hover {
+  background: none;
+  fill: #111111;
+}
+
+
+figure,
 ul, 
 ol,
 dl, 
@@ -70,15 +81,6 @@ img {
 
 .team-photo {
   overflow: hidden;
-}
-
-.team-meta .link {
-  fill: #ff725c;
-}
-
-.team-meta .link:hover {
-  background: none;
-  fill: #111111;
 }
 
 /*  On large screen sizes, we move to asymmetrial layout */
