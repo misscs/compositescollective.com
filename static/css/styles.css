@@ -119,7 +119,8 @@ img {
 */
 
 .project-content {
-  margin-top: -96px;
+  padding-bottom: 300px;
+  overflow: hidden;
 }
 
 .project-photo {
@@ -131,7 +132,18 @@ img {
   * sits to the left of the main photo and description 
   */
   @media screen and (min-width: 60em) {
-  .project-aside {
-    margin-right: auto;
-  }
+    .project-content {
+      margin-top: -96px;
+    }
+
+    .project-aside {
+      margin-right: auto;
+    }
+}
+
+.secondary-photo {
+  left: -20px;
+  bottom: -30px;
+  position: absolute;
+  width: 600px;
 }
