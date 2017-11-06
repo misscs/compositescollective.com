@@ -20,6 +20,17 @@ a:hover {
   background: black;
 }
 
+.link-icon {
+  fill: #ff725c;
+}
+
+.link-icon:hover {
+  background: none;
+  fill: #111111;
+}
+
+
+figure,
 ul, 
 ol,
 dl, 
@@ -72,15 +83,6 @@ img {
   overflow: hidden;
 }
 
-.team-meta .link {
-  fill: #ff725c;
-}
-
-.team-meta .link:hover {
-  background: none;
-  fill: #111111;
-}
-
 /*  On large screen sizes, we move to asymmetrial layout */
 @media screen and (min-width: 60em) {
   .team-member-dn .team-photo {
@@ -107,4 +109,41 @@ img {
   height: 16px;
   width: 16px;
   display: inline-block;
+}
+
+/* 
+  * Project Section 
+  * 
+  * This section code only works for one project. 
+  *
+*/
+
+.project-content {
+  padding-bottom: 300px;
+  overflow: hidden;
+}
+
+.project-photo {
+  margin-left: auto;
+}
+
+/* 
+  * On large screen the supplementary project contents 
+  * sits to the left of the main photo and description 
+  */
+  @media screen and (min-width: 60em) {
+    .project-content {
+      margin-top: -96px;
+    }
+
+    .project-aside {
+      margin-right: auto;
+    }
+}
+
+.secondary-photo {
+  left: -20px;
+  bottom: -30px;
+  position: absolute;
+  width: 600px;
 }

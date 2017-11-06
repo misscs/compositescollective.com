@@ -1,0 +1,111 @@
+<section id="project-section" class="pt4 pt4-m pt5-l">
+  <article class="relative pb5 overflow-hidden">
+
+    <header class="
+      avenir
+      pl3 pl4-l 
+      mt3-l
+      z-999 relative">
+        <h1 class="f2 f-subheadline-ns
+        tracked-tight 
+        lh-solid
+        hot-pink
+        mb3
+        ">
+        Talk to NYC Pilot</h1>
+    </header>
+    
+    <div class="project-content 
+      flex 
+      flex-column
+      flex-row-l
+      w-100 
+      justify-end
+      ">
+
+      {{ with .Site.Data.Projects.Talkto }}
+      <div class="
+        w-60-l
+        order-2-l
+        ">
+        
+        <figure class="
+          aspect-ratio aspect-ratio--8x5 aspect-ratio--16x9-l 
+          ml0 
+          overflow-hidden
+        ">
+          <img class="tr" src="{{ .MainPhoto }}">
+        </figure>
+
+        <div class="ph3 ph4-m pl6-l">
+          <p class="
+            mt4 mt5-ns
+            f3 f3-ns
+            lh-copy
+            measure-narrow
+            black-70
+            avenir
+          ">
+            Using deliberative democracy models to inform city decision making and to connect organizations and districts around NYC’s most pressing issues to solve solve the it in a more effective way.
+          </p>
+        </div>
+
+      <figure class="
+        order-1 order-3-ns
+        ml0 
+        overflow-hidden
+        mt4
+        secondary-photo        
+        ">
+        <img class="tr" src="{{ .SecondaryPhoto }}">
+      </figure>
+
+
+
+      </div>
+
+      <aside class="
+        flex flex-column
+        project-aside
+        self-start
+        w-30-l 
+        mt4 mt0-m mt6-l
+      ">
+
+        <blockquote class="
+          pl4 pv4
+          w-100
+          bg-washed-red
+          dn db-l
+          order-1-ns
+          ma0 
+          mt1
+          mb4-l 
+          f3
+          lh-copy
+          ">
+            <p class="i">
+              How can we use deliberative democracy models to inform city decision making?
+            </p>
+        </blockquote>
+
+
+        <section class="flex flex-column-l 
+          f4
+          lh-copy
+          mt1 mt4-m mt5-l 
+          mb3
+          avenir
+          order-2
+          pl3 pl4-ns
+          ">
+          {{ partial "project-social-follow.html" . }}
+        </section>
+
+      {{ end }}
+      
+      </aside>
+    
+    </div>  
+  </article>
+</section>
