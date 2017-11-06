@@ -7,15 +7,31 @@
   w-100 w-70-l
   ">
   <dt class="
-    f3 f2-m f1-l
-    mb3
-    lh-solid bb avenir light-pink">Talks</dt>
+    f2-ns f4 
+    mb3 lh-solid
+    ml3 ml5-m
+    mb4
+    pb3
+    bb
+    b--light-pink
+    light-pink
+    normal
+    avenir">Talks</dt>
   {{ range .Site.Data.Events.Talks }}
     {{ partial "event-list.html" . }}
   {{ end }}
 
-  <dt class="f3 f2-m f1-l mb3
-    mt4 bb avenir light-pink">Collaborations</dt>
+  <dt class="
+    f2-ns f4 
+    mb3 lh-solid
+    ml3 ml5-m
+    mb4
+    pb3
+    bb
+    b--light-pink
+    light-pink
+    normal
+    avenir">Collaborations</dt>
   {{ range .Site.Data.Events.Collabs }}
     {{ partial "event-list.html" . }}
   {{ end }}
