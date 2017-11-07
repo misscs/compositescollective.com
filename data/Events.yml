@@ -1,7 +1,14 @@
 Collabs:
   -
-    Title: "Process for People’s Roadmap listening session - BKLYN Edition"
-    EventTitle: "BetaNYC facilitaiton co-hosted by Composites Collective"
+    Title: "The People's Roadmap: future of NYC's #civictech & #opendata - QUEENS Edition"
+    EventTitle: "Hosted by BetaNYC, facilitation co-hosted by Composites Collective"
+    EventVenue: Coalition for Queens (C4Q)
+    EventLocation: Long Island City, NY
+    EventDate: 09 November 2017
+  -
+  -
+    Title: "The People's Roadmap; future of NYC's #civictech & #opendata - BKLYN Edition"
+    EventTitle: "Hosted by BetaNYC, facilitation co-hosted by Composites Collective"
     EventVenue: Carto
     EventLocation: Brooklyn, NY
     EventDate: 19 October 2017
@@ -15,7 +22,7 @@ Collabs:
 
 Talks:
   -
-    Title: "Creatively Re:imagining our Futures using On/ffline Models and Tools"
+    Title: "Creatively Re:imagining our Futures using On/Offline Models and Tools"
     EventTitle: "Artist Talk: Emergent Digital Practices @ Denver University"
     EventVenue: Shwayder Art Building
     EventLocation: Denver, CO
@@ -47,8 +54,8 @@ Talks:
   -
     Title: "Cyber Democracy: Inventing the Future of Local Government"
     EventTitle: "Thursday Network's #UnHackTheVote2017"
-    EventVenue: Iron Yard, Washington DC
-    EventLocation: NYC
+    EventVenue: Iron Yard 
+    EventLocation: Washington DC
     EventDate: 20 July 2017
 
   -
