@@ -12,7 +12,7 @@ theme = "gohugo-theme-ananke"
 MetaDataFormat = "yaml"
 SectionPagesMenu = "main"
 Paginate = 15 # this is set low for demonstrating with dummy content. Set to a higher number
-googleAnalytics = ""
+googleAnalytics = "UA-109681455-1"
 enableRobotsTXT = true
 
 [sitemap]
