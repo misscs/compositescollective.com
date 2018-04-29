@@ -16,40 +16,6 @@
     avenir">People connected by imagination & experimentation</h1>
   </header>
 
-  <article class="team-member team-member-dn
-  order-2
-  flex-l
-  ">
-    {{ with .Site.Data.Team.Darshana }}
-      <div class="team-photo
-        w-40-l
-        order-2-ns
-        aspect-ratio aspect-ratio--8x5 aspect-ratio--16x9-m
-        mr6-l">
-        <img src="{{ .Photo }}">
-      </div>
-      <div class="flex-column bg-white
-        pv4
-        ph3 ph5-l
-      ">
-          <h2 class="
-          mt2-ns
-          mb2 mb4-l
-          f3 f2-m f1-l
-        ">{{ .Name }}</h2>
-        <div class="
-          f4-m f3-l
-          measure measure-wide-m
-          lh-copy
-          avenir
-        ">
-          <p>{{ .Bio }}</p>
-        </div> 
-        {{ partial "team-social.html" . }}          
-      </div>  
-    {{ end }}
-  </article>
-
   <article class="team-member team-member-cs
   order-3
   flex-l
@@ -66,7 +32,6 @@
     <div class="flex-column bg-white
     self-start-l
     pv4
-    pt0-l
     ph3 ph5-m ph0-l
     w-50-l
     ml4-l">
